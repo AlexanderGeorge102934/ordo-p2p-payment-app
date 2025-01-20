@@ -1,0 +1,599 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		DAD6A7462D3859C500B0FB90 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DAD6A72D2D3859C200B0FB90 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DAD6A7342D3859C200B0FB90;
+			remoteInfo = ordo;
+		};
+		DAD6A7502D3859C500B0FB90 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DAD6A72D2D3859C200B0FB90 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DAD6A7342D3859C200B0FB90;
+			remoteInfo = ordo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DAD6A7352D3859C200B0FB90 /* ordo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ordo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAD6A7452D3859C500B0FB90 /* ordoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ordoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAD6A74F2D3859C500B0FB90 /* ordoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ordoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		DAD6A7B82D3B3E9F00B0FB90 /* Exceptions for "ordo" folder in "ordo" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Assets.xcassets,
+				ContentView.swift,
+				"Extensions/Color+ordo.swift",
+				Models/TransactionModel.swift,
+				ordoApp.swift,
+				"Preview Content/Preview Assets.xcassets",
+				Shared/BackgroundView.swift,
+				Shared/TextField.swift,
+				ViewModels/AuthViewModel.swift,
+				ViewModels/PaymentViewModel.swift,
+				ViewModels/ProfileViewModel.swift,
+				ViewModels/TransactionHistoryViewModel.swift,
+				Views/LoginView.swift,
+				Views/MainView.swift,
+				Views/PaymentView.swift,
+				Views/ProfileView.swift,
+				Views/TransactionHistoryView.swift,
+			);
+			target = DAD6A7342D3859C200B0FB90 /* ordo */;
+		};
+		DAD6A7DE2D3B457400B0FB90 /* Exceptions for "ordo" folder in "ordoTests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"Extensions/Color+ordo.swift",
+				Models/TransactionModel.swift,
+				Shared/BackgroundView.swift,
+				Shared/TextField.swift,
+			);
+			target = DAD6A7442D3859C500B0FB90 /* ordoTests */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		DAD6A7482D3859C500B0FB90 /* ordoTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ordoTests;
+			sourceTree = "<group>";
+		};
+		DAD6A7522D3859C500B0FB90 /* ordoUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ordoUITests;
+			sourceTree = "<group>";
+		};
+		DAD6A7A92D3B3E9E00B0FB90 /* ordo */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				DAD6A7B82D3B3E9F00B0FB90 /* Exceptions for "ordo" folder in "ordo" target */,
+				DAD6A7DE2D3B457400B0FB90 /* Exceptions for "ordo" folder in "ordoTests" target */,
+			);
+			path = ordo;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DAD6A7322D3859C200B0FB90 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAD6A7422D3859C500B0FB90 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAD6A74C2D3859C500B0FB90 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DAD6A72C2D3859C200B0FB90 = {
+			isa = PBXGroup;
+			children = (
+				DAD6A7A92D3B3E9E00B0FB90 /* ordo */,
+				DAD6A7482D3859C500B0FB90 /* ordoTests */,
+				DAD6A7522D3859C500B0FB90 /* ordoUITests */,
+				DAD6A7362D3859C200B0FB90 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DAD6A7362D3859C200B0FB90 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DAD6A7352D3859C200B0FB90 /* ordo.app */,
+				DAD6A7452D3859C500B0FB90 /* ordoTests.xctest */,
+				DAD6A74F2D3859C500B0FB90 /* ordoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DAD6A7342D3859C200B0FB90 /* ordo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAD6A7592D3859C500B0FB90 /* Build configuration list for PBXNativeTarget "ordo" */;
+			buildPhases = (
+				DAD6A7312D3859C200B0FB90 /* Sources */,
+				DAD6A7322D3859C200B0FB90 /* Frameworks */,
+				DAD6A7332D3859C200B0FB90 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ordo;
+			packageProductDependencies = (
+			);
+			productName = ordo;
+			productReference = DAD6A7352D3859C200B0FB90 /* ordo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DAD6A7442D3859C500B0FB90 /* ordoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAD6A75C2D3859C500B0FB90 /* Build configuration list for PBXNativeTarget "ordoTests" */;
+			buildPhases = (
+				DAD6A7412D3859C500B0FB90 /* Sources */,
+				DAD6A7422D3859C500B0FB90 /* Frameworks */,
+				DAD6A7432D3859C500B0FB90 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DAD6A7472D3859C500B0FB90 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				DAD6A7482D3859C500B0FB90 /* ordoTests */,
+			);
+			name = ordoTests;
+			packageProductDependencies = (
+			);
+			productName = ordoTests;
+			productReference = DAD6A7452D3859C500B0FB90 /* ordoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DAD6A74E2D3859C500B0FB90 /* ordoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAD6A75F2D3859C500B0FB90 /* Build configuration list for PBXNativeTarget "ordoUITests" */;
+			buildPhases = (
+				DAD6A74B2D3859C500B0FB90 /* Sources */,
+				DAD6A74C2D3859C500B0FB90 /* Frameworks */,
+				DAD6A74D2D3859C500B0FB90 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DAD6A7512D3859C500B0FB90 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				DAD6A7522D3859C500B0FB90 /* ordoUITests */,
+				DAD6A7A92D3B3E9E00B0FB90 /* ordo */,
+			);
+			name = ordoUITests;
+			packageProductDependencies = (
+			);
+			productName = ordoUITests;
+			productReference = DAD6A74F2D3859C500B0FB90 /* ordoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DAD6A72D2D3859C200B0FB90 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					DAD6A7342D3859C200B0FB90 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					DAD6A7442D3859C500B0FB90 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = DAD6A7342D3859C200B0FB90;
+					};
+					DAD6A74E2D3859C500B0FB90 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = DAD6A7342D3859C200B0FB90;
+					};
+				};
+			};
+			buildConfigurationList = DAD6A7302D3859C200B0FB90 /* Build configuration list for PBXProject "ordo" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DAD6A72C2D3859C200B0FB90;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = DAD6A7362D3859C200B0FB90 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DAD6A7342D3859C200B0FB90 /* ordo */,
+				DAD6A7442D3859C500B0FB90 /* ordoTests */,
+				DAD6A74E2D3859C500B0FB90 /* ordoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DAD6A7332D3859C200B0FB90 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAD6A7432D3859C500B0FB90 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAD6A74D2D3859C500B0FB90 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DAD6A7312D3859C200B0FB90 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAD6A7412D3859C500B0FB90 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAD6A74B2D3859C500B0FB90 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DAD6A7472D3859C500B0FB90 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DAD6A7342D3859C200B0FB90 /* ordo */;
+			targetProxy = DAD6A7462D3859C500B0FB90 /* PBXContainerItemProxy */;
+		};
+		DAD6A7512D3859C500B0FB90 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DAD6A7342D3859C200B0FB90 /* ordo */;
+			targetProxy = DAD6A7502D3859C500B0FB90 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		DAD6A7572D3859C500B0FB90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DAD6A7582D3859C500B0FB90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DAD6A75A2D3859C500B0FB90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ordo/Preview Content\"";
+				DEVELOPMENT_TEAM = NLHT5P64G7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Ordo.ordo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DAD6A75B2D3859C500B0FB90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ordo/Preview Content\"";
+				DEVELOPMENT_TEAM = NLHT5P64G7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Ordo.ordo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DAD6A75D2D3859C500B0FB90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Ordo.ordoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ordo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ordo";
+			};
+			name = Debug;
+		};
+		DAD6A75E2D3859C500B0FB90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Ordo.ordoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ordo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ordo";
+			};
+			name = Release;
+		};
+		DAD6A7602D3859C500B0FB90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Ordo.ordoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ordo;
+			};
+			name = Debug;
+		};
+		DAD6A7612D3859C500B0FB90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Ordo.ordoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ordo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DAD6A7302D3859C200B0FB90 /* Build configuration list for PBXProject "ordo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAD6A7572D3859C500B0FB90 /* Debug */,
+				DAD6A7582D3859C500B0FB90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAD6A7592D3859C500B0FB90 /* Build configuration list for PBXNativeTarget "ordo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAD6A75A2D3859C500B0FB90 /* Debug */,
+				DAD6A75B2D3859C500B0FB90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAD6A75C2D3859C500B0FB90 /* Build configuration list for PBXNativeTarget "ordoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAD6A75D2D3859C500B0FB90 /* Debug */,
+				DAD6A75E2D3859C500B0FB90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAD6A75F2D3859C500B0FB90 /* Build configuration list for PBXNativeTarget "ordoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAD6A7602D3859C500B0FB90 /* Debug */,
+				DAD6A7612D3859C500B0FB90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DAD6A72D2D3859C200B0FB90 /* Project object */;
+}
