@@ -1,5 +1,5 @@
 //
-//  TransactionHistoryViewModel.swift
+//  TransactionHistoryModel.swift
 //  Ordo
 //
 //  Created by Alexander George on 1/17/25.
@@ -8,7 +8,7 @@
 import SwiftUI
 import Combine
 
-class TransactionHistoryViewModel: ObservableObject {
+class TransactionHistoryModel: ObservableObject {
     @Published var transactions: [Transaction] = []
     
     init() {

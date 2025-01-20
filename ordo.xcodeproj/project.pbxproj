@@ -35,31 +35,26 @@
 			membershipExceptions = (
 				Assets.xcassets,
 				ContentView.swift,
-				"Extensions/Color+ordo.swift",
-				Models/TransactionModel.swift,
+				Controller/PaymentController.swift,
+				Controller/TransactionHistoryModel.swift,
+				Models/ProfileModel.swift,
+				Models/Transaction.swift,
 				ordoApp.swift,
 				"Preview Content/Preview Assets.xcassets",
-				Shared/BackgroundView.swift,
-				Shared/TextField.swift,
-				ViewModels/AuthViewModel.swift,
-				ViewModels/PaymentViewModel.swift,
-				ViewModels/ProfileViewModel.swift,
-				ViewModels/TransactionHistoryViewModel.swift,
-				Views/LoginView.swift,
+				Services/CognitoAuthService.swift,
+				Views/Authentication/LoginView.swift,
 				Views/MainView.swift,
-				Views/PaymentView.swift,
-				Views/ProfileView.swift,
-				Views/TransactionHistoryView.swift,
+				Views/Payment/PaymentView.swift,
+				Views/Profile/ProfileView.swift,
+				Views/Transactions/TransactionHistoryView.swift,
 			);
 			target = DAD6A7342D3859C200B0FB90 /* ordo */;
 		};
 		DAD6A7DE2D3B457400B0FB90 /* Exceptions for "ordo" folder in "ordoTests" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
-				"Extensions/Color+ordo.swift",
-				Models/TransactionModel.swift,
-				Shared/BackgroundView.swift,
-				Shared/TextField.swift,
+				Models/Transaction.swift,
+				Services/CognitoAuthService.swift,
 			);
 			target = DAD6A7442D3859C500B0FB90 /* ordoTests */;
 		};

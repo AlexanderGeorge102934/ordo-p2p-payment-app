@@ -9,7 +9,7 @@ import SwiftUI
 
 /// Shows the user's transaction history
 struct TransactionHistoryView: View {
-    @StateObject private var viewModel = TransactionHistoryViewModel()
+    @StateObject private var viewModel = TransactionHistoryModel()
     
     var body: some View {
             VStack {
@@ -39,7 +39,7 @@ struct TransactionHistoryView_Previews: PreviewProvider {
 
 /// Shows a single transaction Sender -> Reciever paid $X
 struct TransactionRow: View {
-    let transaction: TransactionModel
+    let transaction: Transaction
     
     var body: some View {
         ZStack {
@@ -63,7 +63,7 @@ struct TransactionRow: View {
                 Spacer()
                 
                 // Transaction amount
-                Text("$\(String(format: "%.2f", transaction.amount))")
+                Text("$\(String(format: "%.2f", transaction.amount as CVarArg))")
                     .fontWeight(.bold)
             }
             .padding()

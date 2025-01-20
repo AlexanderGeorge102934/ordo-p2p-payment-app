@@ -8,7 +8,7 @@
 import SwiftUI
 
 /// ViewModel responsible for holding and validating payment information.
-class PaymentViewModel: ObservableObject {
+class PaymentController: ObservableObject {
     /// A short note or memo for the payment.
     @Published var note: String = ""
     

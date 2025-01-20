@@ -9,7 +9,7 @@ import SwiftUI
 
 struct PaymentView: View {
     @State private var amountString: String = "0"      // Initial UI display
-    @StateObject private var paymentViewModel = PaymentViewModel()
+    @StateObject private var paymentViewModel = PaymentController()
     
     var body: some View {
         VStack(spacing: 20) {
