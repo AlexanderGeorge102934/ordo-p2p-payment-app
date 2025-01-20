@@ -8,25 +8,15 @@
 import SwiftUI
 
 struct ContentView: View {
-    @EnvironmentObject var authViewModel: AuthViewModel
     
     var body: some View {
-        Group {
-            // If user is logged show main screen
-            if authViewModel.isLoggedIn {
-                MainView()
-            }
-            // Show login screen if not signed in
-            else {
-                LoginView()
-            }
-        }
+        MainView()
     }
 }
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
-            .environmentObject(AuthViewModel())
+            
     }
 }
