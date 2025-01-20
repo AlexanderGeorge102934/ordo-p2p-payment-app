@@ -2,7 +2,7 @@
 //  ContentView.swift
 //  Ordo
 //
-//  Created by OrdoDev on 1/17/25.
+//  Created by Alexander George on 1/17/25.
 //
 
 import SwiftUI
@@ -12,9 +12,12 @@ struct ContentView: View {
     
     var body: some View {
         Group {
+            // If user is logged show main screen
             if authViewModel.isLoggedIn {
                 MainView()
-            } else {
+            }
+            // Show login screen if not signed in
+            else {
                 LoginView()
             }
         }
