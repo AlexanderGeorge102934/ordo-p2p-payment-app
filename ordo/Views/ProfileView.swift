@@ -2,7 +2,7 @@
 //  ProfileView.swift
 //  Ordo
 //
-//  Created by OrdoDev on 1/17/25.
+//  Created by Alexander George on 1/17/25.
 //
 
 import SwiftUI
@@ -28,7 +28,7 @@ struct ProfileView: View {
                         .padding(.horizontal)
                     }
                     
-                    // Profile Actions Section
+                    /// Profile Actions Section
                     VStack(spacing: 16) {
                         Button(action: {
                             // Edit Profile action
@@ -39,7 +39,7 @@ struct ProfileView: View {
                     }
                     .padding(.horizontal)
                     
-                    // Account & Settings Section
+                    /// Account & Settings Section
                     VStack(alignment: .leading, spacing: 16) {
                         Text("Account & Settings")
                             .font(.headline)
@@ -88,7 +88,7 @@ struct ProfileView: View {
                                 .cornerRadius(30)
                         }
                         .padding(.horizontal)
-                    }
+                    } // End of account & settings section
                 }
                 .padding(.vertical)
             }

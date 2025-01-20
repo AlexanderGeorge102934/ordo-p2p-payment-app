@@ -2,12 +2,13 @@
 //  AuthViewModel.swift
 //  Ordo
 //
-//  Created by OrdoDev on 1/17/25.
+//  Created by Alexander George on 1/17/25.
 //
 
 import SwiftUI
 import Combine
 
+/// Model of user logged in/out
 class AuthViewModel: ObservableObject {
     @Published var email: String = ""
     @Published var password: String = ""

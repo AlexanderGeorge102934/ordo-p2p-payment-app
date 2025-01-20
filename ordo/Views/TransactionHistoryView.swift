@@ -2,11 +2,12 @@
 //  TransactionHistoryView.swift
 //  Ordo
 //
-//  Created by OrdoDev on 1/17/25.
+//  Created by Alexander George on 1/17/25.
 //
 
 import SwiftUI
 
+/// Shows the user's transaction history
 struct TransactionHistoryView: View {
     @StateObject private var viewModel = TransactionHistoryViewModel()
     
@@ -36,6 +37,7 @@ struct TransactionHistoryView_Previews: PreviewProvider {
     }
 }
 
+/// Shows a single transaction Sender -> Reciever paid $X
 struct TransactionRow: View {
     let transaction: TransactionModel
     
@@ -43,18 +45,24 @@ struct TransactionRow: View {
         ZStack {
             HStack {
                 VStack(alignment: .leading, spacing: 6) {
+                    // User paid receiver
                     Text("\(transaction.sender) paid \(transaction.receiver)")
                         .fontWeight(.semibold)
                     
+                    // Note
                     if let note = transaction.note, !note.isEmpty {
                         Text(note)
                             .font(.headline)
                     }
                     
+                    // Timestamp
                     Text("\(transaction.timestamp.formatted(date: .numeric, time: .shortened))")
                         .font(.caption2)
                 }
+                
                 Spacer()
+                
+                // Transaction amount
                 Text("$\(String(format: "%.2f", transaction.amount))")
                     .fontWeight(.bold)
             }

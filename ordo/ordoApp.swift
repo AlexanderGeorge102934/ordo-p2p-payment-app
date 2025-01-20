@@ -2,7 +2,7 @@
 //  OrdoApp.swift
 //  Ordo
 //
-//  Created by OrdoDev on 1/17/25.
+//  Created by Alexander George on 1/17/25.
 //
 
 import SwiftUI
