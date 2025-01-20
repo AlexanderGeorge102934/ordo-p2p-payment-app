@@ -8,6 +8,7 @@
 import SwiftUI
 import Combine
 
+/// For a user's profile only
 class ProfileViewModel: ObservableObject {
     @Published var username: String = "NewUser"
     @Published var email: String = "user@ordo.com"
