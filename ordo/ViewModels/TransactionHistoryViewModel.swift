@@ -9,12 +9,12 @@ import SwiftUI
 import Combine
 
 class TransactionHistoryViewModel: ObservableObject {
-    @Published var transactions: [TransactionModel] = []
+    @Published var transactions: [Transaction] = []
     
     init() {
         // Placeholder data for demonstration
         self.transactions = [
-            TransactionModel(
+            Transaction(
                 id: UUID(),
                 sender: "Alice",
                 receiver: "Bob",
@@ -22,7 +22,7 @@ class TransactionHistoryViewModel: ObservableObject {
                 timestamp: Date(),
                 note: "Groceries"
             ),
-            TransactionModel(
+            Transaction(
                 id: UUID(),
                 sender: "Charlie",
                 receiver: "Alice",
@@ -30,7 +30,7 @@ class TransactionHistoryViewModel: ObservableObject {
                 timestamp: Date(),
                 note: "Some groceries and weed"
             ),
-            TransactionModel(
+            Transaction(
                 id: UUID(),
                 sender: "Bob",
                 receiver: "Alice",
