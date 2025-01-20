@@ -9,7 +9,7 @@ import SwiftUI
 
 struct PaymentView: View {
     @State private var amountString: String = "0"      // Initial UI display
-    @StateObject private var paymentViewModel = PaymentController()
+    @State private var payment = PaymentController()
     
     var body: some View {
         VStack(spacing: 20) {
@@ -32,7 +32,7 @@ struct PaymentView: View {
                         // 2. Reset to "0" if all digits are removed
                         if digitsOnly.isEmpty {
                             amountString = "0"
-                            paymentViewModel.amount = 0
+                            payment.amount = 0
                             return
                         }
                         
@@ -50,9 +50,9 @@ struct PaymentView: View {
                         
                         // 6. Convert to Decimal; fallback to 0 if conversion fails
                         if let decimalValue = Decimal(string: limitedDigits) {
-                            paymentViewModel.amount = decimalValue
+                            payment.amount = decimalValue
                         } else {
-                            paymentViewModel.amount = 0
+                            payment.amount = 0
                         }
                     }
             }
@@ -62,7 +62,7 @@ struct PaymentView: View {
             Spacer()
             
             // Note Input
-            TextField("What's this for?", text: $paymentViewModel.note)
+            TextField("What's this for?", text: $payment.note)
                 .padding()
                 .background(Color(.systemGray6))
                 .cornerRadius(10)
@@ -71,7 +71,7 @@ struct PaymentView: View {
             // Action Buttons
             HStack(spacing: 20) {
                 Button(action: {
-                    paymentViewModel.sendPayment()
+                    payment.sendPayment()
                 }) {
                     Text("Request")
                         .frame(maxWidth: .infinity)
@@ -82,7 +82,7 @@ struct PaymentView: View {
                 }
                 
                 Button(action: {
-                    paymentViewModel.sendPayment()
+                    payment.sendPayment()
                 }) {
                     Text("Pay")
                         .frame(maxWidth: .infinity)

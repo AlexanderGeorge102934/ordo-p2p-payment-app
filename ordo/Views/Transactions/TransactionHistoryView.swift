@@ -9,7 +9,7 @@ import SwiftUI
 
 /// Shows the user's transaction history
 struct TransactionHistoryView: View {
-    @StateObject private var viewModel = TransactionHistoryModel()
+    @State private var viewModel = TransactionHistoryModel()
     
     var body: some View {
             VStack {

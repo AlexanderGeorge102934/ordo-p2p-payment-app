@@ -8,8 +8,8 @@
 import SwiftUI
 import Combine
 
-class TransactionHistoryModel: ObservableObject {
-    @Published var transactions: [Transaction] = []
+@Observable class TransactionHistoryModel {
+    var transactions: [Transaction] = []
     
     init() {
         // Placeholder data for demonstration

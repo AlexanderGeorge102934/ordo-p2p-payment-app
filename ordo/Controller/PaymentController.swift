@@ -8,12 +8,12 @@
 import SwiftUI
 
 /// ViewModel responsible for holding and validating payment information.
-class PaymentController: ObservableObject {
+@Observable class PaymentController {
     /// A short note or memo for the payment.
-    @Published var note: String = ""
+    var note: String = ""
     
     /// The amount of the transaction as a Decimal (more reliable than Double for currency).
-    @Published var amount: Decimal = 0
+    var amount: Decimal = 0
     
     /// For demonstration, we set up an NSDecimalNumberHandler to enforce 2 decimal places (cents).
     /// Adjust roundingMode or scale as needed for your currency logic.
