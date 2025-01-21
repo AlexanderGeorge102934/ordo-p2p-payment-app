@@ -13,6 +13,7 @@ struct UserModel {
     let email: String
     let firstName: String
     let lastName: String
-    let balance: Decimal
+    var bankBalance: Decimal
+    var appBalance: Decimal
     // Add more fields as needed, e.g., balance, profile image URL, etc.
 }
