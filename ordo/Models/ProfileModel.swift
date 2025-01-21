@@ -8,8 +8,9 @@
 import SwiftUI
 import Combine
 
-/// For a user's profile only
+/// Other user profile
 struct ProfileModel{
     let username: String
-    let email: String
+    let firstName: String
+    let lastName: String
 }
