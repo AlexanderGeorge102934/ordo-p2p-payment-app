@@ -8,7 +8,7 @@
 import Foundation
 
 // Model for a transaction
-struct Transaction: Identifiable {
+struct TransactionModel: Identifiable {
     let id: UUID
     let sender: String
     let receiver: String
