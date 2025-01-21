@@ -39,7 +39,7 @@ struct TransactionHistoryView_Previews: PreviewProvider {
 
 /// Shows a single transaction Sender -> Reciever paid $X
 struct TransactionRow: View {
-    let transaction: Transaction
+    let transaction: TransactionModel
     
     var body: some View {
         ZStack {
